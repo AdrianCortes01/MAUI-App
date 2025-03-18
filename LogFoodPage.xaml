@@ -1,0 +1,14 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Nutrition_Assistant.Pages.LogFoodPage"
+             Title="Log Food">
+
+    <VerticalStackLayout Padding="20" Spacing="15" VerticalOptions="Center">
+        <Label Text="Log Your Food" FontSize="24" FontAttributes="Bold" HorizontalOptions="Center"/>
+
+        <Button Text="Take a Picture" Clicked="OnTakePictureClicked" BackgroundColor="Blue" TextColor="White" CornerRadius="10"/>
+
+        <Image x:Name="capturedImage" HeightRequest="300" WidthRequest="300" VerticalOptions="Center" />
+    </VerticalStackLayout>
+
+</ContentPage>
